@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    }
+    body {
+      background: url('https://i.imgur.com/ZDrBdbc.jpg') fixed; background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-evenly; 
+      color: #1C1C66;
+     margin-top: 30px;
+    }
+    main {
+      margin: 0 auto;}
+    
+    .startpic {
+      width: 70%;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+      }
+    
+    .questionScore {
+        display: none;
+        font-size: 20px;
+        margin-left: 100%;
+        margin-right: 100%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+        color: #1C1C66;
+    }
+    
+    .questionScore ul {
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+    }
+    .questionScore li {
+        list-style: none;
+        text-align: center;
+        display: inline;
+        padding: 10px 100px;
+        background-color: white;
+        margin-left: -30px; 
+        margin-right: 5px;
+        color: #1C1C66;}
+    
+    h1 {
+      background-color: white; 
+      width: 100%;
+      padding: 20px;  
+      border-radius: 5px;
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+      color: #1C1C66;
+    }
+    
+    h2 {
+      text-align: center;
+      background-color: white;
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+      color: #1C1C66;
+    }
+    h3 {
+      color: #562054;
+    }
+    button {
+        padding: 30px;
+        border: none;
+        background-color: white;
+        font-size: 22px;
+        text-align: center;
+        display: inline-block; 
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+        cursor: pointer;
+        font-weight: bold;
+        color: #1C1C66;
+    }
+    
+    label {
+        padding: 10px;
+        margin-bottom: 0px;
+        display: flex;
+        cursor: pointer;
+        background-color: white;
+        color: #1C1C66;
+    }
+    
+    fieldset {
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        color: #1C1C66;
+    }
+    
+    
+    .questionForm {
+        display: none;
+        width: 100%;
+        color: #1C1C66;
+    }
+    
+    .feedback{
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      color: #1C1C66;
+    }
+    
+    p {
+      font-size: 22px;
+      color: #1C1C66;
+    }
+    .resultsfeedback { 
+    background-color: white;
+    padding: 10px; 
+    }
+    
+    #popUpPics{
+    width: 500px;
+    height: 300px;
+    }
+    
+    
+    @media screen and (max-width: 770px) {
+    
+    #popUpPics {
+    width: 300px;
+    height: 200px;
+    }
+        main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          width: 100%; 
+          height: 100%;
+          align-items: center;
+          padding-bottom: 5% }
+        button {
+        padding: 15px;
+        border: none;
+        background-color: white;
+        font-size: 20px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+        cursor: pointer;
+        font-weight: bold;
+        color: #1C1C66;
+    }
+      .questionScore {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-left: 100%;
+        margin-right: 100%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+        color: #1C1C66;
+        margin-top: 5%;
+    }
+    
+    .questionScore ul {
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding-right: 20%;
+    }
+    .questionScore li {
+        list-style: none;
+        text-align: center;
+        display: inline;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5% 2%;
+        background-color: white;
+        margin-left: -5%; 
+        margin-right: 5%;
+        color: #1C1C66;}
+    }
+    
+    @media screen and (max-width: 320px) { 
+    
+    #popUpPics{
+    width: 200px;
+    height: 100px;
+    }
+    
+    button {
+        padding: 10px;
+        border: none;
+        background-color: white;
+        font-size: 20px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+        cursor: pointer;
+        font-weight: bold;
+        color: #1C1C66;
+    }
+    
+       main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          width: 100%; 
+          height: 100%;
+          align-items: center;
+        }
+    
+      .questionScore {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-left: 100%;
+        margin-right: 100%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+        color: #1C1C66;
+        margin-top: 5%;
+    }
+    
+    .questionScore ul {
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding-right: 20%;
+    }
+    .questionScore li {
+        list-style: none;
+        text-align: center;
+        display: inline;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5% 2%;
+        background-color: white;
+        margin-left: -5%; 
+        margin-right: 5%;
+        color: #1C1C66;}
+    }
